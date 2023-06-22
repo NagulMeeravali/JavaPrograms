@@ -1,0 +1,246 @@
+WAP to accept n values from user and find big number.
+
+input: 
+           n   --> 5  max=90            max<num   90<34
+
+  34
+  90
+  23
+  67
+  34
+
+
+max: 90
+
+
+===> max and Second max of n values
+
+
+WAP to accept n values and find
+   
+ ---> total
+ ---> avg
+ ---> max
+ --> second max
+ --> min
+ --> second min
+=================================================
+
+ find factors                                  13 :  1-6:  1 14 : 1-7
+ count factors
+  sum of factors
+
+
+1. WAP to check given number is prime or not.
+2. WAP to check given number is perfect number or not.
+ 
+  6:  1+2+3==> 6
+3. WAP to print prime numbers between 1-n
+4. WAP to print alternate prime numbers between 1-n
+
+            2 _ 5 _ 11 _17
+5. WAP to print perfect numbers between 1-n
+6. WAP to find factorial of a given number
+
+     5:  5*4*3*2*1 ==> 
+7. WAP to print table of a given number.
+   input: 2
+
+    2*1=2
+
+
+    2*10=20
+
+
+
+
+================================================================
+
+if 
+
+if else 
+
+
+else if 
+===============================
+  pass /fail  :  marks>=50
+
+begin
+numeric marks
+print("Enter marks ")
+Accept marks
+
+if(marks>=50) {
+   print("Pass")
+}
+else{
+   print("Fail")
+}
+end
+ 
+
+Relational operators:
+
+<  <= > >= != ==             ==> True/false
+
+
+a=10  b=34
+
+a<b  == True
+a<=b  == true
+a>b == false
+a>=b  false
+a==b   false
+a!=b  true
+
+
+
+if(condition) {
+   
+}
+else if(condition){
+
+}
+
+else if(condition){
+
+}
+else if(condition){
+
+}
+else {
+
+}
+
+
+Logical operators:
+
+&&
+
+T T   -- T
+T F   -- F
+F T    --F
+F F    --F
+
+||
+
+T T   -- T
+T F   -- T
+F T    --T
+F F    --F
+
+!
+
+T F
+F T
+
+
+===============================================================
+
+WAP to accept project marks, external marks and internal marks from student
+
+--> check student got passed in Project, externals and internals  (pass marks =50)
+
+--> calculate total score if student got passed in 3 subjects.
+
+    70% from project
+    20% from externals
+    10% from internals
+
+--> print grading based on total score
+
+    90+   A grade
+    70 --90  B grade
+    50  --70  C grade
+
+---> print subject name along with score if student got failed in any subject.
+
+
+Begin
+  Numeric project,external,internal
+  print("Enter project, external and internal score" )
+  Accept project,external,internal
+
+  if (project>=50 && external>=50 && internal>=50) {
+           total=(project*70)/100+(external*20)/10+(internal*10)/100
+           if(total>=90) {
+               print("A grade")
+            }
+           else if(total>=70) {
+                   print("B grade")
+               }
+           else {
+              print("C grade")
+            }
+
+   }
+   else {
+         if(project<50) {
+            print("failed in project and score is ",project)
+          } 
+         if(external<50) {
+            print("failed in external and score is ",external)
+          }   
+           if(internal<50) {
+            print("failed in internal and score is ",internal)
+          }                
+
+
+     }
+=================================================================================
+
+
+  WAP to accept withdraw amount from user and print number of notes:
+
+
+   500 
+   200
+   100
+   
+     ====> 1800
+
+
+
+Begin
+  Numeric amount,five=0,two=0,one=0
+  print("Enter withdraw amount" )
+  Accept amount
+ 
+  if(amount%100==0) {
+       
+     if(amount>=500) {
+           five=amount/500
+           amount=amount(five*500)
+           print("500 ruppes notes are:",five)
+       
+     if(amount>=200) {
+           two=amount/200
+           amount=amount(two*200)
+           print("200 ruppes notes are:",two)
+    
+     if(amount>=100) {
+           print("100 ruppes notes are:",one)
+
+   }
+   else {
+     print("Invalid amount, please enter multiples of 100 only")
+   }
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
